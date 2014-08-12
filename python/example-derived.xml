@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<document type="derived"> 
+    <id>51631bb43004c812cd3131c6</id>
+    <file> 
+        <filename>
+            example.zip 
+        </filename>
+        <hash algorithm="md5">
+            3e8b37e2c5c051a78212121cf462c8ea
+        </hash>
+  </file>
+  <datasource> 
+      <name> 
+          example
+      </name>
+      <version>
+          1.0
+      </version>
+      <metadata> <!-- This list may be empty -->
+          <meta key="key-1">This is example metadata</meta>
+          <meta key="key-2">This is a second example</meta> 
+      </metadata> 
+  </datasource>
+  <parentdata> <!-- This list may only be empty if type is primary -->
+      <parent key="parent-1">51631ac13004c812cd3131c5</parent>
+      <parent key="parent-2">51631aa63004c812cd3131c4</parent>
+  </parentdata>
+  <artifacts> <!-- This list may be empty. It can also contain duplicate keys. -->
+      <artifact key="artifact-1"> 
+          <filename>example-1.txt</filename> 
+          <hash algorithm="md5">f5c85408e67ef9a90f3e416863ba84de</hash>
+      </artifact>
+      <artifact key="artifact-example"> 
+          <filename>example-2.txt</filename> 
+          <hash algorithm="md5">faf0ac2e4a7fc367c1700eed1730950c</hash>
+      </artifact>
+      <artifact key="artifact-example"> 
+          <filename>example-3.txt</filename> 
+          <hash algorithm="md5">80d3d6728b3426bd86461d7d0e514036</hash>
+      </artifact>
+</artifact>
+</document>

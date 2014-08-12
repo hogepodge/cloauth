@@ -1,0 +1,11 @@
+# cloauth
+
+A simple Clojure library for handling OAuth2 MAC Authentication.
+
+## Usage
+
+FIXME: write
+
+## License
+
+Copyright (C) 2011 Christian Hoge

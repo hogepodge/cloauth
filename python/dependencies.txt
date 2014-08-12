@@ -1,0 +1,6 @@
+Required software 
+
+pydicom ( http://code.google.com/p/pydicom/ )
+requests ( http://www.python-requests.org )
+nibabel  ( nipy.sourceforge.net/nibabel/ )
+lxml
